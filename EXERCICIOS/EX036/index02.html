@@ -10,6 +10,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -25,8 +26,23 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838;
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+            font-weight: bold;
+        }/* tbody > tr:nth-child(old) ou (even) {
+            background-color:lightgray;*/
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+            text-decoration: underline;
         }
 
         td.num {
@@ -80,5 +96,14 @@
        </tfoot>
        <caption>População das Unidades Federativas</caption>  
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae libero veniam earum numquam tenetur tempora vero facilis fuga quis enim ullam omnis, illum et? Ad explicabo placeat veniam atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci nesciunt labore at delectus id deleniti totam ipsa blanditiis cumque distinctio itaque praesentium corrupti a et, nisi repellat vel temporibus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae libero veniam earum numquam tenetur tempora vero facilis fuga quis enim ullam omnis, illum et? Ad explicabo placeat veniam atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci nesciunt labore at delectus id deleniti totam ipsa blanditiis cumque distinctio itaque praesentium corrupti a et, nisi repellat vel temporibus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae libero veniam earum numquam tenetur tempora vero facilis fuga quis enim ullam omnis, illum et? Ad explicabo placeat veniam atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci nesciunt labore at delectus id deleniti totam ipsa blanditiis cumque distinctio itaque praesentium corrupti a et, nisi repellat vel temporibus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae libero veniam earum numquam tenetur tempora vero facilis fuga quis enim ullam omnis, illum et? Ad explicabo placeat veniam atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci nesciunt labore at delectus id deleniti totam ipsa blanditiis cumque distinctio itaque praesentium corrupti a et, nisi repellat vel temporibus.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, repudiandae libero veniam earum numquam tenetur tempora vero facilis fuga quis enim ullam omnis, illum et? Ad explicabo placeat veniam atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci nesciunt labore at delectus id deleniti totam ipsa blanditiis cumque distinctio itaque praesentium corrupti a et, nisi repellat vel temporibus.</p>
 </body>
 </html>
